@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Light{
+    background-color:white;
+    color: black;
+    
+}
+
+.Dark{
+    background-color: black;
+    color: white;
+    
+}
+
+.LDB{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+
+.searchss{
+    width :50%;
+    height: 40px;
+}
+
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    
+}
+
+
+@media(max-width:995px)  {
+    .searchss{
+        width :100% ;
+        text-align: center;
+    }
+}
+
+@media(max-width:500px)  {
+    .LDB{
+        display: none;
+    }
+}
